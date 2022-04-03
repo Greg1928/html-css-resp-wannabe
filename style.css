@@ -71,3 +71,29 @@ img {
 .clear {
   clear: both;
 }
+
+/* Changes  */
+
+@media screen and (max-width: 420px) {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+  .row{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+  #lezioni .row img {
+    display: block;
+    min-width: fit-content;
+  }
+  
+  
+}
